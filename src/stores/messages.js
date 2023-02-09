@@ -22,14 +22,14 @@ export const useMessagesStore = defineStore('chat', () => {
         let type = 0;
         let arch = {};
 
-        if (fileobj.name != '') {
+        if (fileobj.fileobj.name != '') {
             let rf = await upload(fileobj)
             if (!rf.result) {
                 alert('ERROR: El archivo no fue enviado');
                 return
             } else {
                 type = 1;
-                arch.file = fileobj.name
+                arch.file = fileobj.fileobj.name
                 arch.link = rf.link
                 arch.file_descr = fileobj.fileobj.type + ' (' + (parseFloat(fileobj.fileobj.size) / 1000000).toFixed(2) + 'mb)'
             }
