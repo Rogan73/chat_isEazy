@@ -1,0 +1,11 @@
+[
+    { "id": 1, "id_user": 100, "avatar": "stuff02.jpg", "name": "Juan", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.", "time": "08.02.23 / 11:20", "type": 0 },
+    { "id": 2, "id_user": 200, "avatar": "stuff01.jpg", "name": "Maria", "text": "fuga suscipit mollitia saepe placeat doloremque dignissimos ea accusantium quam vero deleniti deserunt nostrum!    respuesta es muy larga y peude tener varios linias ", "time": "08.02.23 / 11:20", "type": 0 },
+    { "id": 3, "id_user": 100, "avatar": "stuff02.jpg", "name": "Juan", "text": "VERSION 1", "time": "08.02.23 / 11:20", "type": 1, "file": "Archivo 1.pdf", "file_descr": "Documento/PDF (4.8mb)", "link": "http://docs.com/doc.pdf" },
+    { "id": 4, "id_user": 200, "avatar": "stuff01.jpg", "name": "Maria", "text": "Tenetur totam, et impedit cum, numquam itaque voluptates fuga suscipit mollitia saepe placeat doloremque dignissimos ea accusantium quam vero deleniti deserunt nostrum!   ", "time": "08.02.23 / 11:20", "type": 0 },
+    { "id": 5, "id_user": 100, "avatar": "stuff02.jpg", "name": "Juan", "text": "VERSION 2", "time": "08.02.23 / 11:20", "type": 1, "file": "Archivo 2.pdf", "file_descr": "Documento/PDF (4.9mb)", "link": "http://docs.com/doc2.pdf" },
+    { "id": 6, "id_user": 100, "avatar": "stuff02.jpg", "name": "Juan", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.", "time": "08.02.23 / 11:20", "type": 0 },
+    { "id": 7, "id_user": 200, "avatar": "stuff01.jpg", "name": "Maria", "text": "VERSION 1", "time": "08.02.23 / 11:20", "type": 1, "file": "Archivo 3.pdf", "file_descr": "Documento/PDF (4.9mb)", "link": "http://docs.com/info.pdf" },
+    { "id": 8, "id_user": 200, "avatar": "stuff01.jpg", "name": "Maria", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.", "time": "08.02.23 / 11:20", "type": 0 },
+    { "id": 9, "id_user": 100, "avatar": "stuff02.jpg", "name": "Juan", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.", "time": "08.02.23 / 11:20", "type": 0 }
+]
