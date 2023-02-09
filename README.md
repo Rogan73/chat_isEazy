@@ -1,16 +1,23 @@
-# iseazy
 
-This template should help get you started developing with Vue 3 in Vite.
+# Chat 📝  
 
-## Recommended IDE Setup
+Ejemplo de desarrollo de chatEjemplo de desarrollo de chat
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Libraries
 
-## Customize configuration
+- Vue 3 Composition API
+- Vite
+- Pinia
+- TailwindCSS
+- daisyUI
+- axios
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Screenshots
+![For desktop](public/images/desktop.jpg)  
+![Formobile](public/images/mobile.jpg)  
 
-## Project Setup
+
+## Project Setup 🚀
 
 ```sh
 npm install
@@ -27,3 +34,5 @@ npm run dev
 ```sh
 npm run build
 ```
+ 
+
