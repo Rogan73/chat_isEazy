@@ -44,7 +44,9 @@ const addItemAndClear= ()=>{
 }
 
 const onFileSelected = (event)=>{
-   file.value.fileobj=event.target.files[0];
+   file.value.fileobj=event.target.files[0]
+   file.value.name=event.target.files[0].name
+   file.value.size=event.target.files[0].size
    inm.value.focus()
 }
 

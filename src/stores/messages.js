@@ -10,7 +10,6 @@ export const useMessagesStore = defineStore('chat', () => {
     let chat_dialog = ref(false)
     let last_user = { id: 0, avatar: '' } // para emular la comunicación entre dos usuarios
     let url_files = 'https://server.com/filesave'
-    let theme = ref('dark')
 
 
     const user = useUserStore()
@@ -22,7 +21,7 @@ export const useMessagesStore = defineStore('chat', () => {
         let type = 0;
         let arch = {};
 
-        if (fileobj.fileobj.name != '') {
+        if (fileobj.name != '') {
             let rf = await upload(fileobj)
             if (!rf.result) {
                 alert('ERROR: El archivo no fue enviado');
@@ -31,7 +30,8 @@ export const useMessagesStore = defineStore('chat', () => {
                 type = 1;
                 arch.file = fileobj.fileobj.name
                 arch.link = rf.link
-                arch.file_descr = fileobj.fileobj.type + ' (' + (parseFloat(fileobj.fileobj.size) / 1000000).toFixed(2) + 'mb)'
+                let t = 'Documento ' + fileobj.fileobj.name.split('.').pop().toUpperCase()
+                arch.file_descr = t + ' (' + (parseFloat(fileobj.fileobj.size) / 1000000).toFixed(2) + 'mb)'
             }
 
         }
@@ -121,6 +121,8 @@ export const useMessagesStore = defineStore('chat', () => {
         return res;
 
     }
+
+
 
 
     return { items, addItem, loadMessages }
