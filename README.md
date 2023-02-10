@@ -1,7 +1,7 @@
 
 # Chat 📝  
 
-Ejemplo de desarrollo de chatEjemplo de desarrollo de chat
+Ejemplo de desarrollo de chat
 
 ### Libraries
 
